@@ -194,3 +194,17 @@ body.desk #mv [data-k="r"]::before{content:"R"}
 .mside b{font:900 24px "Trebuchet MS",sans-serif}.mside span{font-size:13px;opacity:.9}.mside em{font-style:normal;font-size:13px;margin-top:6px}.mvsx{align-self:center;font:900 30px "Trebuchet MS",sans-serif;color:#ffd84d}
 .drillbox{margin-top:12px;text-align:center}.dbar{position:relative;height:22px;background:#0b1626;border-radius:11px;border:1px solid #ffffff30;margin:8px 0}.dbar i{position:absolute;top:-4px;width:6px;height:30px;background:#ffd84d;border-radius:3px;transform:translateX(-3px)}.dbar .dz{position:absolute;left:67%;width:16%;top:0;bottom:0;background:#16a34a88;border-radius:8px}
 body.bigtxt{font-size:118%}body.bigtxt .pg{font-size:17px}body.bigtxt #hint{font-size:16px}body.bigtxt #plays button,body.bigtxt #dctl button,body.bigtxt #mv button,body.bigtxt #snap{font-size:16px!important;padding:9px 14px!important}body.bigtxt .side .ni{font-size:15px}body.bigtxt table.mini td{font-size:14px}
+
+/* career training drills (train.js) */
+body.trn #sb,body.trn #sb2,body.trn #pbp,body.trn #tip,body.trn #lt,body.trn #achp,body.trn #playcard,body.trn #bar,body.trn #mv,body.trn #dctl,body.trn #pre,body.trn #top,body.trn #msg,body.trn #hud,body.trn #res,body.trn #help,body.trn #stick,body.trn #act,body.trn #pb{display:none!important}
+#trh{position:absolute;inset:0;z-index:6;pointer-events:none;font-family:"Trebuchet MS",sans-serif;color:#fff}
+#trh .trt{position:absolute;top:8px;left:50%;transform:translateX(-50%);background:#0b1626e8;border:1px solid #ffffff30;border-radius:10px;padding:6px 16px;display:flex;gap:14px;align-items:baseline;white-space:nowrap;box-shadow:0 3px 12px #0009}
+#trh .trt b{color:#ffd84d;font-size:17px}#trh .trt span{font-size:14px;color:#e2e8f0}
+#trh .trbig{position:absolute;top:28%;left:50%;transform:translateX(-50%);font-size:64px;font-weight:bold;color:#ffd84d;text-shadow:0 4px 14px #000,0 0 3px #000;letter-spacing:2px}
+#trh .trm{position:absolute;top:58px;left:50%;transform:translateX(-50%);background:#000b;padding:4px 14px;border-radius:12px;font-size:15px;max-width:80vw;text-align:center}
+#trh .trk{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);background:#0b1626e0;border:1px solid #ffffff2a;border-radius:9px;padding:5px 14px;font-size:13px;color:#cbd5e1;white-space:nowrap}
+#trh .trp{position:absolute;top:40%;left:50%;width:96px;height:96px;margin:-48px 0 0 -48px}
+#trh .trp b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:54px;color:#fff;background:#b91c1cdd;border-radius:50%;text-shadow:0 2px 6px #000}
+#trh .trp i{position:absolute;inset:-6px;border:4px solid #ffd84d;border-radius:50%}
+.trdots i{display:inline-block;width:14px;height:14px;border-radius:50%;border:2px solid #ffd84d;margin:0 2px;vertical-align:middle}.trdots i.on{background:#ffd84d}
+.cardx.hot{border-color:#ffd84d;box-shadow:0 0 0 1px #ffd84d55,0 6px 18px #0006}.cardx .offer{border-top:1px solid #ffffff1a;padding-top:6px;margin-top:6px}.cardx .offer:first-of-type{border-top:0;margin-top:0;padding-top:0}
